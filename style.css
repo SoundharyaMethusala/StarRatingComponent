@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#0C1844;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 2rem;
+    background-color:#F3F7EC ;
+    width:40rem;
+    padding: 2rem;
+}
+
+#rate{
+ color:#E90074;
+}
+
+.star-container{
+    font-size: 3rem;
+}
+
+.star-container span{
+    cursor:pointer;
+}
+
+.gold{
+    color:gold;
+}
